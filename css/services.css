@@ -1,0 +1,122 @@
+/* Services Page Specific Styles */
+.services-page {
+    padding: 40px 0;
+}
+
+.page-title {
+    text-align: center;
+    font-size: 42px;
+    color: #1a365d; /* Dark blue - CONSISTENT */
+    margin: 40px 0 10px;
+    position: relative;
+}
+
+.page-title::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 4px;
+    background-color: #ff6b00; /* Orange accent - CONSISTENT */
+    margin: 10px auto;
+    border-radius: 2px;
+}
+
+.page-subtitle {
+    text-align: center;
+    color: #4a5568; /* Gray-blue text */
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto 50px;
+}
+
+.service-detail {
+    background: white;
+    border-radius: 10px;
+    padding: 40px;
+    margin-bottom: 40px;
+    box-shadow: 0 8px 25px rgba(26, 54, 93, 0.1);
+    border-left: 4px solid #1a365d; /* Dark blue border - CONSISTENT */
+}
+
+.service-detail-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #e2e8f0; /* Light gray-blue */
+    padding-bottom: 20px;
+}
+
+.service-icon-large {
+    font-size: 60px;
+    color: #1a365d; /* Dark blue icons - CONSISTENT */
+}
+
+.service-detail h2 {
+    color: #1a365d; /* Dark blue headings - CONSISTENT */
+    font-size: 32px;
+}
+
+.service-detail-content h3 {
+    color: #ff6b00; /* Orange subheadings - CONSISTENT */
+    margin: 25px 0 15px;
+    font-size: 22px;
+    border-bottom: 1px solid #e2e8f0;
+    padding-bottom: 8px;
+}
+
+.service-detail-content ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.service-detail-content li {
+    margin-bottom: 12px;
+    padding-left: 25px;
+    position: relative;
+    color: #4a5568; /* Gray-blue text */
+}
+
+.service-detail-content li:before {
+    content: "✓";
+    color: #ff6b00; /* Orange checkmarks - CONSISTENT */
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+.service-cta {
+    text-align: center;
+    padding: 40px;
+    background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%); /* Light gray-blue gradient */
+    border-radius: 10px;
+    margin-top: 40px;
+    border: 2px solid #1a365d; /* Dark blue border - CONSISTENT */
+}
+
+.service-cta h2 {
+    color: #1a365d; /* Dark blue - CONSISTENT */
+    margin-bottom: 10px;
+}
+
+.service-cta p {
+    color: #4a5568; /* Gray-blue text */
+    margin-bottom: 20px;
+}
+
+/* Services Page Responsive */
+@media (max-width: 768px) {
+    .page-title {
+        font-size: 32px;
+    }
+    
+    .service-detail {
+        padding: 25px;
+    }
+    
+    .service-detail-header {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+}
