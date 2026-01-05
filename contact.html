@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Pritchard Industries Painting</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header (Same as index.html) -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>PRITCHARD INDUSTRIES</h1>
+                <p class="tagline">Professional Painting, Rendering & Plastering</p>
+            </div>
+            
+            <div class="contact-info">
+                <a href="tel:0400050629" class="phone">
+                    <i class="fas fa-phone"></i> 0400 050 629
+                </a>
+                <p class="hours"><i class="far fa-clock"></i> Open 7AM - 3PM • Mon - Fri</p>
+                <a href="mailto:brettpritchard@hotmail.com" class="email">
+                    <i class="fas fa-envelope"></i> brettpritchard@hotmail.com
+                </a>
+            </div>
+        </div>
+        
+        <nav class="navbar">
+            <div class="container">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Contact Page Content -->
+    <section class="contact-page">
+        <div class="container">
+            <h1 class="page-title">Contact Us</h1>
+            <p class="page-subtitle">Get in touch for a free, no-obligation quote</p>
+            
+            <div class="contact-container">
+                <!-- Contact Information -->
+                <div class="contact-info-section">
+                    <h2><i class="fas fa-info-circle"></i> Contact Information</h2>
+                    
+                    <div class="contact-method">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <a href="tel:0400050629" class="contact-link-large">0400 050 629</a>
+                            <p>Call us directly during business hours</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <a href="mailto:brettpritchard@hotmail.com" class="contact-link-large">brettpritchard@hotmail.com</a>
+                            <p>Email us for inquiries or quotes</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <div class="contact-icon">
+                            <i class="far fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Business Hours</h3>
+                            <p class="hours-detail"><strong>Monday - Friday:</strong> 7:00 AM - 3:00 PM</p>
+                            <p class="hours-detail"><strong>Emergency Services:</strong> Available upon request</p>
+                        </div>
+                    </div>
+                    
+                    <div class="service-area">
+                        <h3><i class="fas fa-map-marker-alt"></i> Service Area</h3>
+                        <p>We service the local area and surrounding regions. Contact us to confirm if we service your location.</p>
+                    </div>
+                </div>
+                
+                <!-- Simple Contact Form -->
+                <div class="contact-form-section">
+                    <h2><i class="fas fa-paper-plane"></i> Send Us a Message</h2>
+                    <p>Fill out the form below and we'll get back to you as soon as possible.</p>
+                    
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Your Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="service">Service Needed</label>
+                            <select id="service" name="service">
+                                <option value="">Select a service</option>
+                                <option value="painting">Painting</option>
+                                <option value="rendering">Rendering</option>
+                                <option value="plastering">Plastering</option>
+                                <option value="multiple">Multiple Services</option>
+                                <option value="not-sure">Not Sure / Consultation</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Project Details *</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Please describe your project..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-block">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                        
+                        <p class="form-note">* Required fields. We'll contact you within 24 hours.</p>
+                    </form>
+                </div>
+            </div>
+            
+            <!-- Emergency Contact -->
+            <div class="emergency-contact">
+                <div class="emergency-icon">
+                    <i class="fas fa-exclamation-triangle"></i>
+                </div>
+                <div class="emergency-content">
+                    <h2>Need Emergency Service?</h2>
+                    <p>For urgent painting, rendering, or plastering needs, call us directly:</p>
+                    <a href="tel:0400050629" class="btn btn-primary btn-large">
+                        <i class="fas fa-phone"></i> Emergency Call: 0400 050 629
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (Same as index.html) -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>PRITCHARD INDUSTRIES</h3>
+                    <p>Professional painting, rendering & plastering services. Serving the local community with quality workmanship.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Our Services</a></li>
+                        <li><a href="contact.html">Get a Quote</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact Us</h4>
+                    <ul class="contact-list">
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:0400050629">0400 050 629</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:brettpritchard@hotmail.com">brettpritchard@hotmail.com</a>
+                        </li>
+                        <li>
+                            <i class="far fa-clock"></i>
+                            <span>7:00 AM - 3:00 PM</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> Pritchard Industries Painting. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Simple form handling
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form data
+            const name = document.getElementById('name').value;
+            const phone = document.getElementById('phone').value;
+            const service = document.getElementById('service').value;
+            
+            // Create email link
+            const email = 'brettpritchard@hotmail.com';
+            const subject = `Quote Request from ${name}`;
+            const body = `Name: ${name}%0D%0APhone: ${phone}%0D%0AService: ${service}%0D%0AMessage: ${document.getElementById('message').value}`;
+            
+            // Open email client
+            window.location.href = `mailto:${email}?subject=${subject}&body=${body}`;
+            
+            // Show success message
+            alert('Thank you! Your email client will open. Please send the pre-filled email to contact us.');
+        });
+    </script>
+</body>
+</html>
